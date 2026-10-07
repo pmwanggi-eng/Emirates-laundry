@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Emirates Laundry & Washing Machine</title>
+
+<style>
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f5fbf8;
+    color:#102a43;
+    line-height:1.5;
+}
+
+header{
+    background:linear-gradient(135deg,#063b2b,#0ca678);
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+    font-size:28px;
+}
+
+header p{
+    margin:5px 0 0;
+}
+
+nav{
+    background:#063b2b;
+    padding:12px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 8px;
+    font-weight:bold;
+}
+
+.hero{
+    padding:60px 20px;
+    text-align:center;
+    background:#e9fff5;
+}
+
+.hero h2{
+    font-size:40px;
+    margin:10px 0;
+    color:#063b2b;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.badge{
+    display:inline-block;
+    background:#d3f9d8;
+    color:#176b45;
+    padding:8px 15px;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.btn{
+    display:inline-block;
+    padding:13px 20px;
+    margin:8px 4px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    border:none;
+    cursor:pointer;
+}
+
+.green{
+    background:#087f5b;
+    color:white;
+}
+
+.whatsapp{
+    background:#25d366;
+    color:white;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:45px 20px;
+}
+
+h2{
+    text-align:center;
+    color:#063b2b;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:15px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:14px;
+    border:1px solid #d9e2ec;
+    text-align:center;
+    box-shadow:0 4px 12px #00000010;
+}
+
+.card .icon{
+    font-size:38px;
+}
+
+.card h3{
+    margin-bottom:5px;
+}
+
+.delivery{
+    background:#063b2b;
+    color:white;
+    border-radius:15px;
+    padding:35px;
+    text-align:center;
+}
+
+.delivery h2{
+    color:white;
+}
+
+.form-container{
+    max-width:800px;
+    margin:auto;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    border:1px solid #d9e2ec;
+    box-shadow:0 4px 15px #00000010;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+input,
+textarea,
+select{
+    width:100%;
+    padding:13px;
+    margin-top:6px;
+    border:1px solid #bcccdc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+textarea{
+    min-height:100px;
+}
+
+.checks{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:8px;
+    margin-top:8px;
+}
+
+.check{
+    background:#f5fbf8;
+    padding:10px;
+    border-radius:7px;
+    border:1px solid #d9e2ec;
+}
+
+.check input{
+    width:auto;
+}
+
+.contact{
+    text-align:center;
+}
+
+.phone{
+    font-size:24px;
+    font-weight:bold;
+}
+
+footer{
+    background:#102a43;
+    color:white;
+    text-align:center;
+    padding:30px 15px;
+}
+
+.small{
+    color:#627d98;
+    font-size:14px;
+}
+
+@media(max-width:600px){
+
+    .hero h2{
+        font-size:32px;
+    }
+
+    nav a{
+        display:inline-block;
+        margin:5px;
+    }
+
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>🧺 Emirates Laundry & Washing Machine</h1>
+
+<p>Clean • Fresh • Convenient</p>
+
+</header>
+
+
+<nav>
+
+<a href="#home">Home</a>
+
+<a href="#services">Services</a>
+
+<a href="#order">Order</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+
+<!-- HOME -->
+
+<div class="hero" id="home">
+
+<span class="badge">🚚 FREE DELIVERY</span>
+
+<h2>Professional Laundry Services</h2>
+
+<p>
+We wash and clean your clothes, duvets, carpets and other items
+professionally and conveniently.
+</p>
+
+<a class="btn green" href="#order">
+🧺 ORDER WASHING
+</a>
+
+<a class="btn whatsapp"
+href="https://wa.me/254706129054"
+target="_blank">
+
+💬 WHATSAPP US
+
+</a>
+
+</div>
+
+
+<!-- SERVICES -->
+
+<section id="services">
+
+<h2>Our Laundry Services</h2>
+
+<div class="services">
+
+<div class="card">
+
+<div class="icon">🛏️</div>
+
+<h3>Duvet Washing</h3>
+
+<p>Professional duvet washing and cleaning.</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">👕</div>
+
+<h3>T-Shirts</h3>
+
+<p>Clean and fresh T-shirts.</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">👖</div>
+
+<h3>Trousers</h3>
+
+<p>Professional trouser washing.</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">🧥</div>
+
+<h3>Jumpers</h3>
+
+<p>Careful washing of jumpers.</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">🧥</div>
+
+<h3>Jackets</h3>
+
+<p>Professional jacket cleaning.</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">🧢</div>
+
+<h3>Caps</h3>
+
+<p>Fresh and clean caps.</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">🧹</div>
+
+<h3>Carpets</h3>
+
+<p>Cleaning for different types of carpets.</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">🧺</div>
+
+<h3>Other Items</h3>
+
+<p>Ask us about any other washing job.</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- DELIVERY -->
+
+<section>
+
+<div class="delivery">
+
+<h2>🚚 FREE DELIVERY</h2>
+
+<p>
+We offer free delivery for our laundry customers.
+Contact us to arrange pickup and delivery.
+</p>
+
+<a class="btn whatsapp"
+href="https://wa.me/254706129054"
+target="_blank">
+
+WhatsApp 0706 129 054
+
+</a>
+
+</div>
+
+</section>
+
+
+<!-- CUSTOMER ORDER PORTAL -->
+
+<section id="order">
+
+<h2>🧺 Customer Order Portal</h2>
+
+<div class="form-container">
+
+<p>
+Fill in the form below to order a washing service.
+Your order will be prepared and sent to Emirates Laundry
+through WhatsApp.
+</p>
+
+
+<form id="orderForm">
+
+
+<label>
+Full Name
+</label>
+
+<input
+type="text"
+id="name"
+placeholder="Enter your full name"
+required
+>
+
+
+<label>
+Phone Number
+</label>
+
+<input
+type="tel"
+id="phone"
+placeholder="0706129054"
+required
+>
+
+
+<label>
+Pickup / Delivery Location
+</label>
+
+<input
+type="text"
+id="location"
+placeholder="Example: Eldoret, Kapsoya"
+required
+>
+
+
+<label>
+Preferred Pickup Date
+</label>
+
+<input
+type="date"
+id="date"
+required
+>
+
+
+<label>
+What would you like washed?
+</label>
+
+
+<div class="checks">
+
+<label class="check">
+
+<input
+type="checkbox"
+value="Duvet"
+>
+
+Duvet
+
+</label>
+
+
+<label class="check">
+
+<input
+type="checkbox"
+value="T-Shirts"
+>
+
+T-Shirts
+
+</label>
+
+
+<label class="check">
+
+<input
+type="checkbox"
+value="Trousers"
+>
+
+Trousers
+
+</label>
+
+
+<label class="check">
+
+<input
+type="checkbox"
+value="Jumpers"
+>
+
+Jumpers
+
+</label>
+
+
+<label class="check">
+
+<input
+type="checkbox"
+value="Jackets"
+>
+
+Jackets
+
+</label>
+
+
+<label class="check">
+
+<input
+type="checkbox"
+value="Caps"
+>
+
+Caps
+
+</label>
+
+
+<label class="check">
+
+<input
+type="checkbox"
+value="Carpets"
+>
+
+Carpets
+
+</label>
+
+
+<label class="check">
+
+<input
+type="checkbox"
+value="Other"
+>
+
+Other
+
+</label>
+
+</div>
+
+
+<label>
+Quantity / Washing Details
+</label>
+
+<textarea
+id="details"
+placeholder="Example: 2 duvets, 5 T-shirts, 3 trousers..."
+></textarea>
+
+
+<label>
+Special Instructions
+</label>
+
+<textarea
+id="notes"
+placeholder="Any special washing instructions?"
+></textarea>
+
+
+<p class="small">
+
+🚚 Delivery: FREE
+
+<br>
+
+💰 Price: Confirm with Emirates Laundry before washing.
+
+</p>
+
+
+<button
+class="btn green"
+type="submit"
+>
+
+📲 SEND ORDER ON WHATSAPP
+
+</button>
+
+
+</form>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<div class="contact">
+
+<h2>Contact Emirates Laundry</h2>
+
+<p>
+For enquiries, orders and pickup arrangements:
+</p>
+
+<p class="phone">
+
+📞 0706 129 054
+
+</p>
+
+
+<a
+class="btn whatsapp"
+href="https://wa.me/254706129054"
+target="_blank"
+>
+
+💬 WhatsApp Us
+
+</a>
+
+
+<a
+class="btn green"
+href="tel:0706129054"
+>
+
+📞 Call Us
+
+</a>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<strong>
+Emirates Laundry & Washing Machine
+</strong>
+
+<br><br>
+
+Duvets • T-Shirts • Trousers • Jumpers
+• Jackets • Caps • Carpets • More
+
+<br><br>
+
+🚚 FREE DELIVERY
+
+<br><br>
+
+📞 0706 129 054
+
+</footer>
+
+
+<script>
+
+document
+.getElementById("orderForm")
+.addEventListener("submit", function(event){
+
+event.preventDefault();
+
+
+const name =
+document.getElementById("name").value;
+
+const phone =
+document.getElementById("phone").value;
+
+const location =
+document.getElementById("location").value;
+
+const date =
+document.getElementById("date").value;
+
+const details =
+document.getElementById("details").value;
+
+const notes =
+document.getElementById("notes").value;
+
+
+const selected =
+Array.from(
+document.querySelectorAll(
+'.check input:checked'
+)
+)
+.map(function(item){
+
+return item.value;
+
+});
+
+
+if(selected.length === 0){
+
+alert(
+"Please select at least one washing service."
+);
+
+return;
+
+}
+
+
+const message =
+
+"Hello Emirates Laundry! 🧺%0A%0A" +
+
+"I would like to place a washing order.%0A%0A" +
+
+"Name: " +
+encodeURIComponent(name) +
+
+"%0APhone: " +
+encodeURIComponent(phone) +
+
+"%0ALocation: " +
+encodeURIComponent(location) +
+
+"%0APickup Date: " +
+encodeURIComponent(date) +
+
+"%0AItems: " +
+encodeURIComponent(selected.join(", ")) +
+
+"%0AQuantity/Details: " +
+encodeURIComponent(details || "Not specified") +
+
+"%0ASpecial Instructions: " +
+encodeURIComponent(notes || "None") +
+
+"%0A%0ADelivery: FREE 🚚" +
+
+"%0A%0APlease confirm the price and pickup arrangements.";
+
+
+window.open(
+
+"https://wa.me/254706129054?text=" +
+message,
+
+"_blank"
+
+);
+
+});
+
+</script>
+
+
+</body>
+</html>
